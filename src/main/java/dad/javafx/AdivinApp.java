@@ -64,10 +64,10 @@ public class AdivinApp extends Application {
 				generateDialog("Correcto. F E L I C I D A D E S ");
 			} else {
 				if (numeroIntroducido > numeroAAdivinar) {
-					generateWarning("El número es menor" + numeroAAdivinar);
+					generateWarning("El número es menor");
 					numeroIntentos++;
 				} else {
-					generateWarning("El número es mayor" + numeroAAdivinar);
+					generateWarning("El número es mayor");
 					numeroIntentos++;
 				}
 			}
